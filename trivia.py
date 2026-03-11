@@ -1,4 +1,4 @@
-nombre_usuario = input('ingrese su nombre')
+nombre_usuario = input('ingrese su nombre: ')
 puntaje = 0
 
 print(f'bienvenido {nombre_usuario}')
@@ -17,8 +17,8 @@ if pregunta4 == 'Sedal':
     puntaje = puntaje + 1
 
 if puntaje == 4:
-    print('Excelente')
+    print('Excelente!')
 elif puntaje >= 2 :
-    print('Muy bien')
+    print('Muy bien!')
 else:
     print('Puedes mejorar')
